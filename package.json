@@ -1,0 +1,17 @@
+{
+  "name": "betterlogs",
+  "description": "Get styled logs in terminal, Ability to Post to a discord webhook and have daily log files!",
+  "version": "1.0.5",
+  "license": "MIT",
+  "keywords": ["Color", "terminal", "Discord", "logs"],
+  "repository": "https://github.com/BrandgrandRealMe/BetterLogs.git",
+  "homepage": "https://github.com/BrandgrandRealMe/BetterLogs",
+  "bugs": {
+    "url": "https://github.com/BrandgrandRealMe/BetterLogs/issues"
+  },
+  "main": "src/index.js",
+  "Dependencies": {
+    "colors": "^1.4.0",
+    "discord-webhook-node": "^1.1.8",
+  }
+}
