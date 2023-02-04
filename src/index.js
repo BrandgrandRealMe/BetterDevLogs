@@ -76,18 +76,18 @@ module.exports = function myModule(options = {}) {
       if (err) throw err;
     });
   }
-  console.log(colors.info(`BetterLogs ${ver} | `) + `Successfuly Loaded! \n` + colors.debug(`Made By CYBRΞRLabs`));
+  console.log(colors.info(`BetterDevLogs ${ver} | `) + `Successfuly Loaded! \n` + colors.debug(`Made By CYBRΞRLabs`));
 
   if (opts.logfolder !== "false") {
 
-    flog(`BetterLogs v${ver} - Log Started! ${date.toLocaleDateString()} ${date.toLocaleTimeString()}`, `Logger`);
+    flog(`BetterDevLogs v${ver} - Log Started! ${date.toLocaleDateString()} ${date.toLocaleTimeString()}`, `Logger`);
   }
   let dlog;
   if (opts.webhook !== "false") {
     // Setup Webhook
     dlog = new Webhook(opts.webhook);
-    dlog.setUsername('BetterLogs v' + ver);
-    dlog.success('**BetterLogs**', 'Successfuly Loaded!', `BetterLogs Made By CYBRΞRLabs`);
+    dlog.setUsername('BetterDevLogs v' + ver);
+    dlog.success('**BetterDevLogs**', 'Successfuly Loaded!', `BetterDevLogs Made By CYBRΞRLabs`);
 
   }
 
