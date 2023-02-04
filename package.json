@@ -1,5 +1,5 @@
 {
-  "name": "betterlogs",
+  "name": "betterdevlogs",
   "version": "1.0.0",
   "description": "Get styled logs in terminal, Ability to Post to a discord webhook and have daily log files!",
   "main": "src/index.js",
