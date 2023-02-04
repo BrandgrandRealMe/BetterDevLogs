@@ -1,1 +1,1 @@
-# BetterLogs
+# BetterDevLogs
