@@ -23,7 +23,7 @@ const log = bl({ logfolder: "<folder name>" });
 
 **Set Webhook (Discord)**:
 ```js
-const log = bl({ webhook: <Webhook URL> });
+const log = bl({ webhook: "<Webhook URL>" });
 ```
 
 ## Usage
